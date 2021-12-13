@@ -1,4 +1,4 @@
-import * as wasm from "doublets-web"
+import * as wasm from "../pkg"
 
 const constants = new wasm.LinksConstants();
 let links = new wasm.UnitedLinks(constants);
